@@ -1,0 +1,29 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFBEB" />
+      <stop offset="100%" stop-color="#FEF3C7" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#D97706" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#D97706" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" rx="40" />
+  <circle cx="600" cy="350" r="400" fill="url(#glow)" />
+  
+  <!-- Decorative Frame -->
+  <rect x="40" y="40" width="1120" height="720" rx="30" fill="none" stroke="#D97706" stroke-width="2" stroke-opacity="0.5" />
+  
+  <!-- Icon / Graphics -->
+  <g transform="translate(600, 320)" fill="none" stroke="#D97706" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="-100" y="-80" width="200" height="160" rx="20" fill="#D97706" fill-opacity="0.1" />
+    <circle cx="-30" cy="-20" r="20" fill="#D97706" />
+    <path d="M -90 60 L -30 0 L 30 50 L 70 20 L 90 60" />
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="520" font-family="system-ui, -apple-system, sans-serif" font-size="46" font-weight="bold" fill="#0F172A" text-anchor="middle">Annual Festival Celebration</text>
+  <text x="600" y="580" font-family="system-ui, -apple-system, sans-serif" font-size="26" font-weight="500" fill="#2563EB" text-anchor="middle">Winter 2005 • Gathering of All Branches</text>
+  <text x="600" y="630" font-family="system-ui, -apple-system, sans-serif" font-size="20" fill="#64748B" text-anchor="middle">Family Heritage Collection</text>
+</svg>
